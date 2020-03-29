@@ -1,0 +1,72 @@
+
+
+body{
+  background: #5f9ea0;
+  background-image: url(image/img.jpg);
+  text-align: center;
+}
+#level-title{
+  font-family: cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.container{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.game-over {
+  background-color: red;
+  background-image: url(image/red1.jpg);
+  opacity: 0.8;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/* Start Button in CSS */
+.start-button {
+  font-family: 'arial black';
+  color: #FFFFFF !important;
+  font-size: 21px;
+  box-shadow: 1px 1px 2px #FFFFFF;
+  padding: 10px 39px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: #FFA500;
+  background: linear-gradient(top,  #EE07B0,  #AD04CF);
+  background: -ms-linear-gradient(top,  #EE07B0,  #AD04CF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EE07B0), to(#AD04CF));
+  background: -moz-linear-gradient(top,  #EE07B0,  #AD04CF);
+}
+.start-button:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #1D94CF,  #B0D7EE);
+  background: -ms-linear-gradient(top,  #1D94CF,  #B0D7EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1D94CF), to(#B0D7EE));
+  background: -moz-linear-gradient(top,  #1D94CF,  #B0D7EE);
+}
